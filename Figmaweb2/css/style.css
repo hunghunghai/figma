@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Work Sans', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-Web {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#headerWeb{
+    height: 586px;
+    width: 100%;
+    background-color: #74c69d;
+    margin-bottom: 60px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 135px;
+    margin-bottom: 40px;
+}
+.nav-menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.riview-nav{
+    padding: 0 135px;
+    display: flex;
+    gap: 120px;
+}
+.review-img{
+    width: 644.28px;
+    height: 378.13px;
+}
+.review{
+    width: 416px;
+    height: 299px;
+}
+.font-wrok{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+.font-wrok-one{
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    margin-bottom: 15px;
+}
+.font-wrok-Two{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 15px;
+}
+.btn {
+    width: 170px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+.title-color{
+    color: #74c69d;
+}
+.btn-dark{
+    background-color: #1A1919;
+    color: white;
+}
+.partners{
+    padding: 0 135px;
+    left: 141px;
+    top: 646px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+.partners img {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 55px;
+}
+.partners-web{
+    text-align: center;
+    width: 411px;
+    height: 162px;
+    margin: auto auto;
+    margin-bottom: 55px;
+}
+.partners-riview{
+    display: flex;
+    gap: 110px;
+    padding: 0 135px;
+    margin-bottom: 74px;
+}
+.partners-img{
+    width: 600px;
+    height: 432px;
+}
+.partners-riview-title{
+    padding: 89px 0;
+}
+.partners-riview-two{
+    display: flex;
+    gap: 110px;
+    padding: 0 135px;
+    margin-bottom: 102px;
+
+}
+.partners-img-two{
+    width: 600px;
+    height: 566px;
+}
+.partners-user{
+    padding: 0 135px;
+    left: 141px;
+    top: 646px;
+    text-align: center;
+    margin-bottom: 73px;
+}
